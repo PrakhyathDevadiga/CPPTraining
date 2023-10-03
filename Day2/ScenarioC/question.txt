@@ -1,0 +1,6 @@
+/*
+want to create B and C which is child of A. AND store B and C objects in same array
+*/
+
+create Bike Class
+with milage and biketype atv,commute,sport
