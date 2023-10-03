@@ -1,2 +1,4 @@
 HI
-helloBye
+hello
+Bye
+Adios
