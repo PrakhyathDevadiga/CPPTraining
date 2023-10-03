@@ -1,8 +1,8 @@
 #include "Vehicle.h"
 #include "Type.h"
-#include "Functionalties.h"
-
+#include "Functionalities.h"
 int main(){
+    
     /*
     A)developer makes a container of objects. Container us copied when create when create object is called
     from CreatObject function to main function
@@ -14,4 +14,5 @@ int main(){
    Vehicle* arr[3];
 
    CreateObjects(arr);
+   std::cout << "Average price: " << AveragePrice(arr);
 }

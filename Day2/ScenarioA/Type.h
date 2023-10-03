@@ -9,6 +9,7 @@ enum class Type{
     CAR,
     BIKE,
     OTHER
+ 
 };
 
 #endif // TYPE_H

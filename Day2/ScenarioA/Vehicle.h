@@ -43,6 +43,24 @@ public:
         std::cout <<"Vehicle with id: " << _id << " is destroyed";
 
     }
+
+    std::string id() const { return _id; }
+
+    std::string brand() const { return _brand; }
+
+    float price() const { return _price; }
+
+    Type type() const { return _type; }
+
+    friend std::ostream &operator<<(std::ostream &os, const Vehicle &rhs) {
+        os << "_id: " << rhs._id
+           << " _brand: " << rhs._brand
+           << " _price: " << rhs._price
+           << " _type: ";
+        return os;
+    }
+
+    
 };
 
 #endif // VEHICLE_H
