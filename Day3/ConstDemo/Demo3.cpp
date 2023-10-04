@@ -13,6 +13,7 @@ void Demo(){
 //     ptr=&n2; //this is possible
 //     n1=30; //this is pfcouse possible
 
+    //similar to demo2 but different format
     int const *ptr=&n1;
     //*ptr=100;
     ptr=&n2;

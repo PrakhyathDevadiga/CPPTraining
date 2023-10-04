@@ -23,6 +23,7 @@ void Demo(){
     // //ptr=&n2;
     // n1=30;
 
+    //both integer and pointer is constant
     const int * const ptr=&n1;
     //*ptr=100;
     //ptr=&n2;

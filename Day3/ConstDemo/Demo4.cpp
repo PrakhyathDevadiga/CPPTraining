@@ -18,6 +18,7 @@ void Demo(){
     // ptr=&n2;
     // n1=30;
 
+    //pointer is constant  and I can use pointer to change the value of n1 as it is not const
     int * const ptr=&n1;
     *ptr=100;
     //ptr=&n2;
