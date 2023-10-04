@@ -7,7 +7,7 @@ void createCustomer(Customer *customers[5]);
 
 Customer** readCustomer(Customer *customers[5], CustomerType customer_type);
 
-Customer readCustomerInRange(Customer *customer[5]);
+Customer** readCustomerInRange(Customer *customer[5]);
 
 float getAverageStoreCredits(Customer *Customer[5]);
 

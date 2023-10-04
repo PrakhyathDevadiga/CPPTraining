@@ -12,6 +12,18 @@ int main(){
         }
     }
 
-    
+
+    std::cout << "-------------------------\n";
+
+    Customer** returnedCustomer2 = readCustomerInRange(customers);
+    for(int i=0;i<5;i++){
+        if(returnedCustomer[i]!=nullptr){
+            std::cout << *(returnedCustomer[i]) <<std::endl; 
+        }
+    }
+
+    std::cout << "-------------------------\n";
+
+    std::cout<< getAverageStoreCredits(customers);
 
 }
