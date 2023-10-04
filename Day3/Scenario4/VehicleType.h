@@ -3,7 +3,7 @@
 
 enum class VehicleType{
     CAR,
-    BIKR,
+    BIKE,
     OTHER
 };
 
