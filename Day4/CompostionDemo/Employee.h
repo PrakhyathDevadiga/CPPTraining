@@ -15,19 +15,30 @@ private:
     
 public:
     Employee() =delete; 
-    Employee(const Employee&) = delete;
+    Employee(const Employee&)=delete ;
     Employee(
-        std::string _id,
-    std::string _name,
-    float _salary,
-    Department _dept,
-    Project* _project
+        std::string id,
+    std::string name,
+    float salary,
+    Department dept,
+    Project* project
     );
 
 
     ~Employee() {
+        delete _project;
         std::cout << "Employee with id: " << _id << " is destroyed\n";
     }
+
+    Project* project() const { return _project; }
+
+    float salary() const { return _salary; }
+
+    Department dept() const { return _dept; }
+
+    friend std::ostream &operator<<(std::ostream &os, const Employee &rhs);
+
+    
 };
 
 #endif // EMPLOYEE_H
