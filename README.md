@@ -28,6 +28,13 @@ The cherno - YouTube channel
 
 Day4 and Day5:
 Templates
+Rule1:
+ If you want to use for infinite type then use templat.
+Rule 2:
+ We use the concept of template parameters(replacement symbol)
+Rule 3:
+ Before the code is compiled, replacement symbol has to be substituded with something somewhere.
+
 Exceptions
 Virtual Inheritance
 friend function classes
