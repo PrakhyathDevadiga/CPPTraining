@@ -22,7 +22,31 @@ Day3:
 -scenario D: overloading in OOP
 
 -->upcasting with virtual and non-virtual functionalities
--->use of con in different situations
+-->use of const in different situations
 
 The cherno - YouTube channel
+
+Day4 and Day5:
+Templates
+Rule1:
+ If you want to use for infinite type then use templat.
+Rule 2:
+ We use the concept of template parameters(replacement symbol)
+Rule 3:
+ Before the code is compiled, replacement symbol has to be substituded with something somewhere.
+
+Exceptions
+Virtual Inheritance
+friend function classes
+
+Program using
+Composition
+Inheritance
+OPerator Overloading
+Abstract base class
+
+
+Books-
+ng-book for Angular
+spring boot in action for SpringBoot (Manning publication)
 
