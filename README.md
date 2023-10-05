@@ -22,7 +22,18 @@ Day3:
 -scenario D: overloading in OOP
 
 -->upcasting with virtual and non-virtual functionalities
--->use of con in different situations
+-->use of const in different situations
 
 The cherno - YouTube channel
 
+Day4 and Day5:
+Templates
+Exceptions
+Virtual Inheritance
+friend function classes
+
+Program using
+Composition
+Inheritance
+OPerator Overloading
+Abstract base class
