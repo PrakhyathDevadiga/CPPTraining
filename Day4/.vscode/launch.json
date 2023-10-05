@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/workspaces/CPPTraining/Day4/TemplatesDemo/app",
+            "program": "/workspaces/CPPTraining/Day4/CompostionDemo/app",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

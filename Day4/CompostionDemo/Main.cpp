@@ -2,9 +2,15 @@
 #include "Project.h"
 #include "Functionalities.h"
 #include <iostream>
+
+#define SIZE 3
+
 int main(){
-    Employee* emp_arr[3];
-    CreateObjects(emp_arr);
+    Employee* emp_arr[SIZE]={};
+
+    try{
+            CreateObjects(emp_arr);
+
 
     Employee* highest_paid_employee = EmployeeWithHighestSalary(emp_arr);
     std::cout << "Employee with max salary: " << *highest_paid_employee ;
@@ -19,5 +25,11 @@ int main(){
 
     std::cout << "\n------------------------\n";
 
+    }
+    catch (std::runtime_error& ex){
+        std::cout << ex.what();
+    }
+
     FreeMemory(emp_arr);
+
 }

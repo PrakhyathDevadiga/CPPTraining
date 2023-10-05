@@ -37,8 +37,9 @@ public:
     Department dept() const { return _dept; }
 
     friend std::ostream &operator<<(std::ostream &os, const Employee &rhs);
-
     
 };
+
+std::string getEnum(const Department value);
 
 #endif // EMPLOYEE_H
