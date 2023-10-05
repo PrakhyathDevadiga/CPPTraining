@@ -27,7 +27,8 @@ Day3:
 The cherno - YouTube channel
 
 Day4 and Day5:
-Templates
+
+-Templates
 Rule1:
  If you want to use for infinite type then use templat.
 Rule 2:
@@ -35,14 +36,14 @@ Rule 2:
 Rule 3:
  Before the code is compiled, replacement symbol has to be substituded with something somewhere.
 
-Exceptions
-Virtual Inheritance
-friend function classes
+-Exceptions
+-Virtual Inheritance
+-friend function classes
 
-Program using
+-Program using-
 Composition
 Inheritance
-OPerator Overloading
+Operator Overloading
 Abstract base class
 
 
