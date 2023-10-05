@@ -44,3 +44,9 @@ Composition
 Inheritance
 OPerator Overloading
 Abstract base class
+
+
+Books-
+ng-book for Angular
+spring boot in action for SpringBoot (Manning publication)
+
