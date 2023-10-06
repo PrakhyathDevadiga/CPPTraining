@@ -20,13 +20,13 @@ float getAveragePrice(Vehicle *garage[3])
         
 }
 
-Vehicle* getMinPriceCar(Vehicle *garage[3])
+Vehicle** getMinPriceCar(Vehicle *garage[3])
 {
-    static Vehicle *minValueCar;
-    minValueCar=garage[0];
+    static Vehicle *minValueCar[1];
+    minValueCar[0]=garage[0];
     for(int i=1;i<3;i++){
-        if( ((minValueCar)->price()) > ((garage[i])->price()))
-            minValueCar=garage[i];
+        if( ((minValueCar[0])->price()) > ((garage[i])->price()))
+            minValueCar[0]=garage[i];
     }
 
     return minValueCar;

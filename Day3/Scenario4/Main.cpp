@@ -11,8 +11,8 @@ int main(){
     std::cout << getAveragePrice(garage);
     std::cout << "------------------\n";
 
-    Vehicle* minValueCar=getMinPriceCar(garage);
+    Vehicle** minValueCar=getMinPriceCar(garage);
 
-    std::cout << *(minValueCar);
+    std::cout << *(minValueCar[0]);
 
 }

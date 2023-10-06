@@ -17,8 +17,8 @@ int main(){
 
     Customer** returnedCustomer2 = readCustomerInRange(customers);
     for(int i=0;i<5;i++){
-        if(returnedCustomer[i]!=nullptr){
-            std::cout << *(returnedCustomer[i]) <<std::endl; 
+        if(returnedCustomer2[i]!=nullptr){
+            std::cout << *(returnedCustomer2[i]) <<std::endl; 
         }
     }
 

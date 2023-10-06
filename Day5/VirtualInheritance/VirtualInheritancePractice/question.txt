@@ -1,0 +1,25 @@
+Create a class Card with attributes
+- _number which is a 4 digit number (check for this condition)
+- _cvv_number which is a 3 digit number
+- _issuer which is either VISA, MASTERCARD or RUPAY
+- _annual_charge which is a float value
+- _limit which is an integer value
+- An abstract method CalculatTaxOnCharge which returns float and takes 0 arguments.
+
+Create a class Debitcard (inherits from Card) with attributes
+- _category which is either PREMIUM, SIGNATURE or DELUXE
+- An ovverriden CalculatTaxOnCharge implementation which returns
+    (_limit/100) * _annual_charge if ISSUER is VISA
+    (_limit/50) * _annual_charge if ISSUER is MASTERCARD
+    (_limit/10) * _annual_charge if ISSUER is RUPAY
+
+Create a class CreditCard (inherits from Card) with attributes
+- _transactional_limti  which is a float value
+- An ovverriden CalculatTaxOnCharge implementation which returns (_limit/100) * _annual_charge
+
+Create the following functionalities.cpp functionalities
+- Create 5 objects (2 of Debitcard abd 3 on CreditCard on heap)
+- A function to return a container of all cards whose issuer matches the second argument value passed to the function
+-A function to find and return the pointer to the card whose _number is passed as a second argument to the function
+-A function to find and return the cvvnumber of the card whose _annual_charge is highest
+(assume all have different charges with no repetations and or duplicates)
